@@ -1,0 +1,68 @@
+{
+  "name": "awesome-apm",
+  "description": "Curated index of APM-native packages. Install one marketplace, then search and install across the indexed packages from any compatible AI harness.",
+  "owner": {
+    "name": "Parth Sangani",
+    "url": "https://github.com/Avyayalaya"
+  },
+  "homepage": "https://github.com/Avyayalaya/awesome-apm",
+  "repository": "https://github.com/Avyayalaya/awesome-apm",
+  "plugins": [
+    {
+      "name": "pm-skills",
+      "description": "MCP server and 12 skills for product analysis, specification writing, strategy, narrative, and stakeholder alignment. Composes with microsoft/azure-skills via composes_with: frontmatter for cross-package routing.",
+      "version": "2.1.0",
+      "license": "MIT",
+      "author": {
+        "name": "Parth Sangani",
+        "url": "https://github.com/Avyayalaya"
+      },
+      "repository": "https://github.com/Avyayalaya/pm-skills-arsenal",
+      "homepage": "https://github.com/Avyayalaya/pm-skills-arsenal",
+      "keywords": [
+        "product-management",
+        "competitive-analysis",
+        "specification-writing",
+        "product-strategy",
+        "go-to-market",
+        "metrics",
+        "discovery-research",
+        "narrative",
+        "stakeholder-alignment",
+        "mcp"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "Avyayalaya/pm-skills-arsenal",
+        "ref": "refs/tags/v2.1.0"
+      }
+    },
+    {
+      "name": "azure",
+      "description": "Microsoft Azure MCP Server and skills for cloud resource management, deployments, and Azure services. Manage Azure infrastructure, monitor applications, and deploy resources directly from Copilot.",
+      "version": "1.1.45",
+      "license": "MIT",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "repository": "https://github.com/microsoft/azure-skills",
+      "homepage": "https://github.com/microsoft/azure-skills",
+      "keywords": [
+        "azure",
+        "cloud",
+        "infrastructure",
+        "deployment",
+        "microsoft",
+        "devops",
+        "foundry",
+        "mcp"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "microsoft/azure-skills",
+        "path": ".github/plugins/azure-skills"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+name: awesome-apm
+version: 0.1.0
+description: A curated index of APM-native packages — install one marketplace, then `apm search` and `apm install` across the indexed packages. Companion to github/awesome-copilot but focused specifically on APM-installable domain capability layers.
+
+# Marketplace authoring source. Regenerate .claude-plugin/marketplace.json
+# with `apm pack` (https://github.com/microsoft/apm).
+marketplace:
+  owner:
+    name: Parth Sangani
+    url: https://github.com/Avyayalaya
+  packages:
+    - name: pm-skills
+      description: MCP server and 12 skills for product analysis, specification writing, strategy, narrative, and stakeholder alignment. Composes with microsoft/azure-skills via `composes_with:` frontmatter for cross-package routing.
+      source: Avyayalaya/pm-skills-arsenal
+      homepage: https://github.com/Avyayalaya/pm-skills-arsenal
+      version: 2.1.0
+      license: MIT
+      keywords:
+        - product-management
+        - competitive-analysis
+        - specification-writing
+        - product-strategy
+        - go-to-market
+        - metrics
+        - discovery-research
+        - narrative
+        - stakeholder-alignment
+        - mcp
+
+    - name: azure
+      description: Microsoft Azure MCP Server and skills for cloud resource management, deployments, and Azure services. Manage Azure infrastructure, monitor applications, and deploy resources directly from Copilot.
+      source: microsoft/azure-skills
+      homepage: https://github.com/microsoft/azure-skills
+      version: 1.1.45
+      license: MIT
+      keywords:
+        - azure
+        - cloud
+        - infrastructure
+        - deployment
+        - microsoft
+        - devops
+        - foundry
+        - mcp
