@@ -1,25 +1,16 @@
 {
   "name": "awesome-apm",
-  "description": "Curated index of APM-native packages. Install one marketplace, then search and install across the indexed packages from any compatible AI harness.",
   "owner": {
     "name": "Parth Sangani",
     "url": "https://github.com/Avyayalaya"
   },
-  "homepage": "https://github.com/Avyayalaya/awesome-apm",
-  "repository": "https://github.com/Avyayalaya/awesome-apm",
   "plugins": [
     {
       "name": "pm-skills",
-      "description": "MCP server and 12 skills for product analysis, specification writing, strategy, narrative, and stakeholder alignment. Composes with microsoft/azure-skills via composes_with: frontmatter for cross-package routing.",
+      "description": "MCP server and 12 skills for product analysis, specification writing, strategy, narrative, and stakeholder alignment. Composes with microsoft/azure-skills via `composes_with:` frontmatter for cross-package routing.",
       "version": "2.1.0",
       "license": "MIT",
-      "author": {
-        "name": "Parth Sangani",
-        "url": "https://github.com/Avyayalaya"
-      },
-      "repository": "https://github.com/Avyayalaya/pm-skills-arsenal",
-      "homepage": "https://github.com/Avyayalaya/pm-skills-arsenal",
-      "keywords": [
+      "tags": [
         "product-management",
         "competitive-analysis",
         "specification-writing",
@@ -34,7 +25,8 @@
       "source": {
         "source": "github",
         "repo": "Avyayalaya/pm-skills-arsenal",
-        "ref": "v2.1.0"
+        "ref": "v2.1.0",
+        "sha": "31a1881dc55a91b414761bd6eda69ee27ac4808a"
       }
     },
     {
@@ -42,13 +34,7 @@
       "description": "Microsoft Azure MCP Server and skills for cloud resource management, deployments, and Azure services. Manage Azure infrastructure, monitor applications, and deploy resources directly from Copilot.",
       "version": "1.1.45",
       "license": "MIT",
-      "author": {
-        "name": "Microsoft",
-        "url": "https://www.microsoft.com"
-      },
-      "repository": "https://github.com/microsoft/azure-skills",
-      "homepage": "https://github.com/microsoft/azure-skills",
-      "keywords": [
+      "tags": [
         "azure",
         "cloud",
         "infrastructure",
@@ -61,7 +47,31 @@
       "source": {
         "source": "github",
         "repo": "microsoft/azure-skills",
-        "path": ".github/plugins/azure-skills"
+        "ref": "v1.1.45",
+        "sha": "2a5c5080b8c501d00408eb00f7ee4ed8effa7b2c"
+      }
+    },
+    {
+      "name": "agent-council",
+      "description": "Multi-agent quality gate for tier-1 text artifacts. 5 role-conditioned LLM deliberators (Skeptic, Voice & Identity, Evidence & Calibration, Strategy & Stakes, Adjudicator) run a 2-round async + cross-read protocol and return SHIP / REVISE / HOLD plus a revision brief and full audit transcript. Bundled MCP server + slash commands. 4 runtime adapters (claude_cli, lmstudio, ollama, mock_cli). Use to gate external publishes, identity-shaping docs, and memory writes.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "tags": [
+        "quality-gate",
+        "multi-agent",
+        "adjudication",
+        "council",
+        "llm-as-judge",
+        "agent-orchestration",
+        "review",
+        "claude-code",
+        "mcp"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "Avyayalaya/agent-council",
+        "ref": "v0.1.0",
+        "sha": "68ea40e789e4a4ebd4c2402f8505cfba865a7b7a"
       }
     }
   ]
