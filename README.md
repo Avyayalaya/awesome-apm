@@ -21,16 +21,18 @@ apm search azure@awesome-apm
 # Install a package (resolves to the source repo)
 apm install pm-skills@awesome-apm
 apm install azure@awesome-apm
+apm install agent-council@awesome-apm
 ```
 
-## What's listed (v0.1.0)
+## What's listed (v0.2.0)
 
 | Name | Source | Domain | License |
 |---|---|---|---|
 | `pm-skills` | [`Avyayalaya/pm-skills-arsenal`](https://github.com/Avyayalaya/pm-skills-arsenal) | Product management methodology (12 skills + MCP server + composes_with frontmatter for cross-package routing) | MIT |
 | `azure` | [`microsoft/azure-skills`](https://github.com/microsoft/azure-skills) | Azure cloud operations (Microsoft's official Azure capability layer — 27 skills + MCP + Foundry integration) | MIT |
+| `agent-council` | [`Avyayalaya/agent-council`](https://github.com/Avyayalaya/agent-council) | Multi-agent quality gate for tier-1 text artifacts (5-deliberator SHIP / REVISE / HOLD adjudication, 4 runtime adapters, bundled MCP + slash commands) | MIT |
 
-awesome-apm is new. v0.1.0 ships with two real entries to seed the index. More entries are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) for the PR submission process.
+awesome-apm is curated, not crowdsourced. v0.2.0 adds `agent-council` — the first quality-gate domain on the index (existing domains are execution / analysis layers). More entries are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) for the PR submission process.
 
 ## How to submit a package
 

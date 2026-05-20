@@ -1,5 +1,5 @@
 name: awesome-apm
-version: 0.1.0
+version: 0.2.0
 description: A curated index of APM-native packages — install one marketplace, then `apm search` and `apm install` across the indexed packages. Companion to github/awesome-copilot but focused specifically on APM-installable domain capability layers.
 
 # Marketplace authoring source. Regenerate .claude-plugin/marketplace.json
@@ -41,4 +41,21 @@ marketplace:
         - microsoft
         - devops
         - foundry
+        - mcp
+
+    - name: agent-council
+      description: Multi-agent quality gate for tier-1 text artifacts. 5 role-conditioned LLM deliberators (Skeptic, Voice & Identity, Evidence & Calibration, Strategy & Stakes, Adjudicator) run a 2-round async + cross-read protocol and return SHIP / REVISE / HOLD plus a revision brief and full audit transcript. Bundled MCP server + slash commands. 4 runtime adapters (claude_cli, lmstudio, ollama, mock_cli). Use to gate external publishes, identity-shaping docs, and memory writes.
+      source: Avyayalaya/agent-council
+      homepage: https://github.com/Avyayalaya/agent-council
+      version: 0.1.0
+      license: MIT
+      keywords:
+        - quality-gate
+        - multi-agent
+        - adjudication
+        - council
+        - llm-as-judge
+        - agent-orchestration
+        - review
+        - claude-code
         - mcp
