@@ -54,4 +54,4 @@ awesome-apm is curated, not crowdsourced. v0.2.0 adds `agent-council` — the fi
 
 ## Author
 
-[@Avyayalaya](https://github.com/Avyayalaya)
+[@Avyayalaya](https://github.com/Avyayalaya) — personal research, separate from my day-job at Microsoft.
